@@ -1,3 +1,14 @@
+//BuzzedBuzzer by Simple Switch Labs, LLC
+//Uses readings from a cheap alcohol sensor to decide when to make a buzzing noise
+//looks for increasing alcohol fumes to trigger the buzz
+//See http://buzzedbuzzer.com for schematics and detailed build instructions
+
+//Created December 2012
+
+//This code is licensed Creative Commons 3.0 ShareAlike, Attribution
+//See https://creativecommons.org/licenses/by-sa/3.0/  for detailed licensing information
+
+
 #include "pins.h"
 
 unsigned int baseline = 0;
