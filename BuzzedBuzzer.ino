@@ -26,7 +26,7 @@ void loop()
   
   take_a_reading();
   
-  if((readings[0] >= (baseline + 50)) && (readings[0] >= rollingaverage + 20))
+  if((readings[0] >= (baseline + 50)) && (readings[0] >= rollingaverage + 20)) //Look for increasing alcohol signal above baseline. Stop buzzing as soon as alcohol starts to drop.
   {
     buzz();
   }
